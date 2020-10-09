@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextFontCoffeeBreak">
+        <item name="fontFamily">@font/telex</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="TextFontBig" parent="TextFontCoffeeBreak">
+        <item name="android:textSize">35sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TextFontNormal" parent="TextFontCoffeeBreak">
+        <item name="android:textSize">50sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+</resources>
